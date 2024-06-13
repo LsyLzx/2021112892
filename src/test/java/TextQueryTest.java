@@ -13,7 +13,7 @@ public class TextQueryTest {
     public void setUp() {
         graph = new TextGraph();
         try {
-            graph.readTextFile("./lll.txt");
+            graph.readTextFile("./2ll.txt");
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
